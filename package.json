@@ -1,0 +1,33 @@
+{
+  "name": "grunt-liquibase-mysql",
+  "version": "1.0.0",
+  "description": "MySQL plugin for grunt-liquibase",
+  "author": "Gavriel Fleischer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flocsy/grunt-liquibase-mysql.git"
+  },
+  "keywords": [
+    "grunt-liquibase",
+    "mysql",
+    "liquibase"
+  ],
+  "dependencies": {
+    "merge": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~1.0.0"
+  },
+  "peerDependencies": {
+      "grunt": ">=0.4.0",
+      "grunt-liquibase": "^1.0.0"
+  },
+  "homepage": "https://github.com/flocsy/grunt-liquibase-mysql#readme",
+  "bugs": {
+    "url": "https://github.com/flocsy/grunt-liquibase-mysql/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
