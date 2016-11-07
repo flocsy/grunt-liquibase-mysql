@@ -1,4 +1,4 @@
-# grunt-liquibase-mysql [![Build Status](https://travis-ci.org/sameetn/grunt-liquibase-mysql.svg?branch=master)](https://travis-ci.org/flocsy/grunt-liquibase-mysql) [![Code Climate](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql/badges/gpa.svg)](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql) [![Issue Count](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql/badges/issue_count.svg)](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql)
+# grunt-liquibase-mysql [![Build Status](https://travis-ci.org/flocsy/grunt-liquibase-mysql.svg?branch=master)](https://travis-ci.org/flocsy/grunt-liquibase-mysql) [![Code Climate](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql/badges/gpa.svg)](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql) [![Issue Count](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql/badges/issue_count.svg)](https://codeclimate.com/github/flocsy/grunt-liquibase-mysql)
 > MySQL plugin for grunt-liquibase
 
 ## Getting Started
