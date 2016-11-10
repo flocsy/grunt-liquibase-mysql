@@ -12,14 +12,18 @@ const path = require('path');
 const merge = require('merge');
 
 module.exports = function(grunt) {
-  grunt.initConfig(merge.recursive({
+  var driver_options = {
     liquibase: {
       options: {
-        url: `jdbc:mysql://${grunt.config.data.liquibase.hostname}:3306/${grunt.config.data.liquibase.database}`,
         classpath: path.join(__dirname, '..', 'lib', 'mysql-connector-java-5.1.40-bin.jar'),
         driver: 'com.mysql.jdbc.Driver'
       }
     }
-  }, grunt.config.data));
+  };
+  if (grunt.config.data.liquibase.driver_options) {
+    driver_options.liquibase.options.url =
+      `jdbc:mysql://${grunt.config.data.liquibase.driver_options.hostname}:3306/${grunt.config.data.liquibase.driver_options.database}`;
+  }
+  grunt.initConfig(merge.recursive(driver_options, grunt.config.data));
   grunt.loadNpmTasks('grunt-liquibase');
 };

@@ -1,6 +1,6 @@
 {
   "name": "grunt-liquibase-mysql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MySQL plugin for grunt-liquibase",
   "author": "Gavriel Fleischer",
   "repository": {
